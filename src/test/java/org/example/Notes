@@ -1,0 +1,34 @@
+Locators
+--------
+1)Id
+2)Name
+3)CLass Name
+4)TagName
+5)LinkText
+6)PartialLinkText
+7)XPath
+8)CSS
+
+Xpath - Xml path
+
+Absolute xpath - Full path - /
+Relative xpath - Short hand path - // (Preferred)
+
+//tagname[@attribute = 'value']
+tagname - which will b starting point
+attribute - before = sign
+value - after = sign (value of that particular attribute)
+
+//input[@data-testid="royal_email"]
+
+contains
+//input[contains(@placeholder,"Email address or ")]
+//input[contains(@id,"u_0_5_")]
+
+
+//input[@type="text" and @id="email"] //both should be true
+//input[@type="text" or @id="email"] //atleast anyone wil b true
+
+//a[text()='Create new account']
+
+//button[text()='Log in']
