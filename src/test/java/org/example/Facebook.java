@@ -13,6 +13,7 @@ public class Facebook {
         System.out.println(driver.getTitle());
         System.out.println(driver.getCurrentUrl());
 
+       // driver.findElement(By.id("email")).sendKeys("values to send");
 
 
         driver.findElement(By.id("email")).sendKeys("Tom");

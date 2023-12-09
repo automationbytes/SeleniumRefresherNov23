@@ -32,3 +32,37 @@ contains
 //a[text()='Create new account']
 
 //button[text()='Log in']
+
+CSS Selector
+-----------
+
+# - id
+. - class
+
+input#email
+
+drop downs
+---------
+
+1) Select
+2) List
+
+Selectbyvalue -
+Selectbyvisibletext
+selectbyindex
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
