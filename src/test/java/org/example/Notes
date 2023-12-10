@@ -51,8 +51,37 @@ Selectbyvalue -
 Selectbyvisibletext
 selectbyindex
 
+=======================
 
+Hard wait - Thread.sleep () -
+Soft wait - Selenium wait
 
+1) Implicit wait - All the driver elements
+2) Explicit wait - For a single element, also we can provide additional conditions
+3) Fluent wait - Advanced version of explicit wait
+
+===========================================
+Switch To
+---------
+
+Alerts- popup
+iframes - html page inside html
+Window Handing - Multiple windows/tabs
+
+Alerts- popup
+-----------
+1) accept - positive  - ok, accept, allow, yes
+2) dismiss - negative - cancel, disallow, no
+3) sendkeys
+4) gettext - get the text of the popup
+
+iframes
+-------
+10 years old - frameset (html4)
+iframes - html 5
+1) id/name -
+2) locators -
+3) index
 
 
 
