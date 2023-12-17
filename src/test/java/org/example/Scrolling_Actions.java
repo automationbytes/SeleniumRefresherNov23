@@ -20,5 +20,6 @@ public class Scrolling_Actions {
         Actions actions = new Actions(driver);
         actions.scrollToElement(driver.findElement(By.linkText("Book Cab / Bus Rental")));
         actions.build().perform();
+
     }
 }
